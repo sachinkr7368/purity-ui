@@ -1,14 +1,7 @@
 "use client";
 import React from "react";
 import Card from "@/components/ui/Card";
-import {
-  BarChart,
-  Bar,
-  ResponsiveContainer,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-} from "recharts";
+import { BarChart, Bar, ResponsiveContainer, XAxis, YAxis } from "recharts";
 import { Wallet, Rocket, ShoppingCart, Wrench } from "lucide-react";
 
 const data = [
@@ -25,14 +18,14 @@ const data = [
 
 const ActiveUsersChart = () => {
   return (
-    <Card className="h-full !p-0 overflow-hidden">
+    <Card className="h-full p-0 overflow-hidden">
       {" "}
       {/* Remove padding to allow chart to touch edges if needed */}{" "}
       {/* Chart Section - Dark Background */}
       <div className="bg-linear-to-b from-[#313860] to-[#151928] p-4 m-4 rounded-xl h-[260px]">
         {" "}
         {/* Increased height for axes */}
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={220}>
           <BarChart
             data={data}
             margin={{ top: 20, right: 30, left: -20, bottom: 5 }}
