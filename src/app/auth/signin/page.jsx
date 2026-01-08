@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Signin = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col relative overflow-hidden">
+    <div className="bg-white min-h-screen flex flex-col justify-between relative overflow-hidden">
       <div className="flex">
         {/* navbar */}
         <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-50 w-[90%] max-w-[987.5px]">
@@ -120,7 +120,7 @@ const Signin = () => {
         </div>
 
         {/* Right Section - Teal Background */}
-        <div className="hidden lg:block w-[862px] bg-[#4FD1C5] rounded-bl-xl h-[872px] relative overflow-hidden">
+        <div className="hidden lg:block bg-[#4FD1C5] w-full min-w-[862px] max-w-[50%] rounded-bl-xl h-[872px] relative overflow-hidden">
           {/* Background Images */}
           <div
             className="absolute inset-0 bg-cover bg-no-repeat z-0"
@@ -143,27 +143,27 @@ const Signin = () => {
         </div>
       </div>
       {/* Footer - Absolute bottom or relative */}
-      <div className="mt-[122px] text-center lg:text-left text-gray-400 text-sm mb-10 lg:flex lg:justify-between lg:pr-10 w-[985.5px] mx-auto">
-        <p className="mb-2 lg:mb-0">
-          @ 2021, Made with ❤️ by{" "}
-          <span className="text-[#4FD1C5] font-bold">Creative Tim</span> &{" "}
-          <span className="text-[#4FD1C5] font-bold">Simmmple</span>
-        </p>
-        <div className="flex justify-center lg:justify-end gap-6 text-gray-400">
-          <a href="#" className="hover:text-gray-600 transition-colors">
-            Creative Tim
-          </a>
-          <a href="#" className="hover:text-gray-600 transition-colors">
-            Simmmple
-          </a>
-          <a href="#" className="hover:text-gray-600 transition-colors">
-            Blog
-          </a>
-          <a href="#" className="hover:text-gray-600 transition-colors">
-            License
-          </a>
+        <div className="mt-[122px] text-center lg:text-left text-gray-400 text-sm mb-10 lg:flex lg:justify-between lg:pr-10 w-[985.5px] mx-auto">
+          <p className="mb-2 lg:mb-0">
+            @ 2021, Made with ❤️ by{" "}
+            <span className="text-[#4FD1C5] font-bold">Creative Tim</span> &{" "}
+            <span className="text-[#4FD1C5] font-bold">Simmmple</span>
+          </p>
+          <div className="flex justify-center lg:justify-end gap-6 text-gray-400">
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Creative Tim
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Simmmple
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Blog
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              License
+            </a>
+          </div>
         </div>
-      </div>
     </div>
   );
 };
