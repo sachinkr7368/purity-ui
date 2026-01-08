@@ -1,4 +1,3 @@
-"use client";
 import React, { memo } from "react";
 import Card from "@/components/ui/Card";
 import { CircleCheck, MoreVertical } from "lucide-react";
@@ -99,7 +98,9 @@ const ProjectsTable = memo(() => {
       <div className="mb-5">
         <h3 className="font-bold text-gray-800 text-lg">Projects</h3>
         <p className="text-gray-400 text-xs mt-1 flex items-center gap-1">
-          <span className=""><CircleCheck fill="#04DF72" size={18} color="#fff" /></span>
+          <span className="">
+            <CircleCheck fill="#04DF72" size={18} color="#fff" />
+          </span>
           <span className="font-bold text-gray-400">30 done</span>
           <span>this month</span>
         </p>

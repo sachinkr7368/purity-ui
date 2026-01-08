@@ -1,4 +1,3 @@
-"use client";
 import React, { memo } from "react";
 import Card from "@/components/ui/Card";
 import { Calendar, ArrowUp, ArrowDown, Minus } from "lucide-react";

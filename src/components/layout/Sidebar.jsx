@@ -69,10 +69,10 @@ const Sidebar = memo(() => {
           isActive={isActive("/dashboard")}
         />
         <SidebarLink
-          href="/dashboard/tables"
+          href="/tables"
           icon={BarChart2}
           label="Tables"
-          isActive={isActive("/dashboard/tables")}
+          isActive={isActive("/tables")}
         />
         <SidebarLink
           href="/billing"
@@ -113,7 +113,7 @@ const Sidebar = memo(() => {
       </div>
 
       {/* Help Card */}
-      <div className="mt-6">
+      <div className="mt-18">
         <div className="relative overflow-hidden rounded-2xl p-4 bg-[#4FD1C5]">
           {/* Decorative arcs from bottom-right corner */}
           <svg

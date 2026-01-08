@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from '@/components/layout/Sidebar';
 import Footer from '@/components/layout/Footer';
 
-export default function BillingLayout({ children }) {
+export default function TablesLayout({ children }) {
   return (
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar />
