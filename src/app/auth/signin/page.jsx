@@ -59,7 +59,7 @@ const Signin = () => {
         <div className="w-full lg:w-7/12 flex flex-col justify-center items-center px-6 relative z-10 pt-24 lg:pt-0">
           <div className="w-full max-w-[350px]">
             <h1 className="text-3xl font-bold text-[#4FD1C5] mb-2">
-              Welcome Back
+              Welcome
             </h1>
             <p className="text-gray-400 text-sm font-bold mb-8">
               Enter your email and password to sign in
