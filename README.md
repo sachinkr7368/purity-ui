@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Features
+
+- **Responsive Signup Page**: Fully optimized for mobile, tablet, and desktop devices using Tailwind CSS responsive utilities.
+- **Adaptive UI Components**:
+  - **Header**: Dynamic background height and padding adjustments across screen sizes.
+  - **Signup Card**: Improved card sizing and internal padding for better mobile accessibility.
+- **Responsive Footer**: A redesigned footer that adapts from a stacked layout on mobile to a spread layout on larger screens.
+
 ## Getting Started
 
 First, run the development server:
