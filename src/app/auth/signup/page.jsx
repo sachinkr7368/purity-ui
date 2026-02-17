@@ -75,7 +75,7 @@ const Signup = () => {
           <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 lg:p-10">
             <div className="text-center mb-6">
               <h2 className="text-lg sm:text-xl font-bold text-gray-700">
-                Register with
+                Register with testing data
               </h2>
               <div className="flex justify-center gap-4 mt-6">
                 <SocialButton icon={<FacebookIcon />} />
