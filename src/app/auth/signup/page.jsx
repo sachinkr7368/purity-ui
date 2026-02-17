@@ -8,11 +8,11 @@ import GoogleIcon from "@/components/icons/GoogleIcon";
 
 const Signup = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col">
-      <div className="flex-1 bg-white flex flex-col items-center justify-start relative overflow-x-hidden px-2 pb-10">
+    <div className="p-2 pb-10 bg-white">
+      <div className="min-h-screen bg-white flex flex-col items-center justify-start relative overflow-x-hidden">
         {/* Background Header */}
         <div
-          className="w-full min-h-[420px] sm:min-h-[480px] lg:min-h-[520px] absolute top-0 left-0 bg-[#4FD1C5] bg-cover bg-center z-0 rounded-xl pt-[24px] sm:pt-[32px] lg:pt-[34.5px]"
+          className="w-full min-h-[520px] absolute top-0 left-0 bg-[#4FD1C5] bg-cover bg-center z-0 rounded-xl pt-[34.5px]"
           style={{
             backgroundImage:
               "url('/assets/signup-bg-left.png'), url('/assets/signup-bg-right.png')",
@@ -21,7 +21,6 @@ const Signup = () => {
             backgroundSize: "contain, contain",
           }}
         >
-
           {/* Navigation / Header */}
           <div className="container mx-auto flex justify-between items-center text-white relative z-10 ">
             <div className="font-bold text-sm flex items-center gap-2 uppercase">
@@ -71,12 +70,10 @@ const Signup = () => {
         </div>
 
         {/* Signup Card */}
-        <div className="relative z-10 w-full max-w-md lg:max-w-lg mt-[260px] sm:mt-[280px] px-4 mb-10 sm:mb-16 lg:mb-24">
-          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 lg:p-10">
+        <div className="relative z-10 w-full max-w-sm mt-[279px] px-4 mb-20">
+          <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="text-center mb-6">
-              <h2 className="text-lg sm:text-xl font-bold text-gray-700">
-                Register with
-              </h2>
+              <h2 className="text-lg font-bold text-gray-700">Register with</h2>
               <div className="flex justify-center gap-4 mt-6">
                 <SocialButton icon={<FacebookIcon />} />
                 <SocialButton icon={<AppleIcon />} />
@@ -84,7 +81,7 @@ const Signup = () => {
               </div>
             </div>
 
-            <div className="flex justify-center text-gray-400 text-base sm:text-lg font-bold">
+            <div className="flex justify-center text-gray-400 text-[18px] font-bold">
               or
             </div>
 
@@ -153,28 +150,26 @@ const Signup = () => {
         </div>
 
         {/* Footer */}
-        <div className="w-full mt-10 px-4">
-          <div className="max-w-5xl mx-auto text-center sm:text-left text-gray-400 text-xs sm:text-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p>
-              @ 2021, Made with ❤️ by{" "}
-              <span className="text-[#4FD1C5] font-bold">Creative Tim</span> &{" "}
-              <span className="text-[#4FD1C5] font-bold">Simmmple</span> for a
-              better web
-            </p>
-            <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6 text-gray-400">
-              <a href="#" className="hover:text-gray-600 transition-colors">
-                Creative Tim
-              </a>
-              <a href="#" className="hover:text-gray-600 transition-colors">
-                Simmmple
-              </a>
-              <a href="#" className="hover:text-gray-600 transition-colors">
-                Blog
-              </a>
-              <a href="#" className="hover:text-gray-600 transition-colors">
-                License
-              </a>
-            </div>
+        <div className="text-center text-gray-400 text-sm flex justify-between items-center w-[1044px] max-w-[1044px]">
+          <p className="">
+            @ 2021, Made with ❤️ by{" "}
+            <span className="text-[#4FD1C5] font-bold">Creative Tim</span> &{" "}
+            <span className="text-[#4FD1C5] font-bold">Simmmple</span> for a
+            better web
+          </p>
+          <div className="flex justify-center gap-11 text-gray-400">
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Creative Tim
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Simmmple
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              Blog
+            </a>
+            <a href="#" className="hover:text-gray-600 transition-colors">
+              License
+            </a>
           </div>
         </div>
       </div>
