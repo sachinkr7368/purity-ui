@@ -18,6 +18,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `src/app/page.jsx`. The page auto-updates as you edit the file.
 
+## Features
+
+- **Authentication**: Includes a signup page (`/auth/signup`) that has been updated to support registration with testing data.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Features
